@@ -271,19 +271,25 @@
     border-right: 1px solid currentColor !important;
     border-left: 1px solid currentColor !important;
     border-bottom: 1px solid currentColor !important;
-
-    /* border-top: none !important; */
     border-radius: 0 0 var(--mechanic-input-height-half) var(--mechanic-input-height-half) !important;
-    padding: 0.5em;
-    overflow: hidden;
     box-sizing: border-box !important;
     width: 100% !important;
+  }
+
+.ColorInput-module__popover > .ColorInput-module__chrome-picker {
+
+    /* border-top: none !important; */
+    padding: 0.5em;
+    overflow: hidden;
   }
 
 .ColorInput-module__focus .ColorInput-module__popover .ColorInput-module__chrome-picker {
   border-right: 2px solid currentColor !important;
   border-left: 2px solid currentColor !important;
   border-bottom: 2px solid currentColor !important;
+}
+
+.ColorInput-module__focus .ColorInput-module__popover .ColorInput-module__chrome-picker {
   padding: 0.5em calc(0.5em - 1px) calc(0.5em - 1px);
 }
 
@@ -945,4 +951,4 @@ body {
 }
 
 
-/*# sourceMappingURL=facec234f2794e139a2b-app.css.map*/
+/*# sourceMappingURL=4eee8600de98fe07969f-app.css.map*/
