@@ -1,0 +1,19 @@
+{
+  "name": "ebcc-social-media-banner",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "mechanic dev",
+    "build": "mechanic build",
+    "serve": "mechanic serve",
+    "new": "mechanic new function"
+  },
+  "devDependencies": {
+    "@mechanic-design/cli": "^2.0.0-beta.7",
+    "@mechanic-design/core": "^2.0.0-beta.7"
+  },
+  "dependencies": {
+    "@mechanic-design/engine-react": "^2.0.0-beta.7",
+    "d3plus": "^2.0.1",
+    "react-helmet": "^6.1.0"
+  }
+}
